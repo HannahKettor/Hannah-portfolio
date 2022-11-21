@@ -3,13 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Blog from './routes/blog'
+import Projects from './routes/project';
 
 import {
   createBrowserRouter,
   RouterProvider,
   Route,
 } from "react-router-dom";
-import Projects from './routes/project';
+
 
 const router = createBrowserRouter([
   {
@@ -19,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "/projects",
     element: <Projects/>,
+  }, 
+  {
+    path: "/blog",
+    element: <Blog/>,
   },
 ]);
 
