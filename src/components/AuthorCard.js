@@ -1,4 +1,5 @@
 import React from 'react';
+import pic from '../images/bg.png'
 
 
 export default function AuthorCard({isActive, setIsActive}) {
@@ -16,7 +17,7 @@ setIsActive({
     <div id="intro" className="bg-[#
     3EAEAEA] h-auto my-6 py-8 rounded-lg border-4">
       <div id="avatar" className="flex justify-center py-2">
-        <img className="w-40" src="https://api.multiavatar.com/JB.svg " alt="JB image" />
+        <img className="w-40" src="{pic}" alt="JB image" />
       </div>
       <div id="content" className="prose lg:prose-xl px-2">
         <h1 className="text-center text-gray-800 text-3xl capitalize m-2 font-medium">Hannah Kettor</h1>
