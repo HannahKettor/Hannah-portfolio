@@ -13,19 +13,19 @@ export default function Hobbies() {
 
       <details className="px-6 py-4">
         <summary className="font-bold text-2xl text-gray-800">Reading</summary>
-        <p>I love to read, online business, Acting, etc.
+        <p> reading,  business, Acting,  cooking , dancing etc.
         </p>
       </details>
 
       <details className="px-6 py-4">
         <summary className="font-bold text-2xl text-gray-800">Playing Sports</summary>
-        <p>I play Kickball, basketball,  and volleyball.
+        <p>I play Kickball, basketball,  and volleyball not  too good.
         </p>
       </details>
 
       <details className="px-6 py-4">
         <summary className="font-bold text-2xl text-gray-800">Exercise</summary>
-        <p>I love to  exercises includs jogging, Walking situps and Sleping. These help keep me active
+        <p>I love to  exercises includs jogging, Walking situps and Sleping. These help  to keep  me in shape.
     
         </p>
       </details>

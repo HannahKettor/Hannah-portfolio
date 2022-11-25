@@ -1,8 +1,10 @@
 import React from "react";
+import Navbar from "../components/Navbar";
 
 export default function Contact() {
     return (
         <>
+        <Navbar />
             <section class="bg-white px-20 py-20 lg:py-[120px] overflow-hidden relative z-10">
                 <div class="container">
                     <div class="flex flex-wrap lg:justify-between -mx-4">
@@ -19,11 +21,11 @@ export default function Contact() {
                   font-bold
                   text-[32px]
                   sm:text-[40px]
-                  lg:text-[36px]
-                  xl:text-[40px]
+                  lg:text-[30px]
+                  xl:text-[30px]
                   "
                                 >
-                                    GET IN TOUCH WITH US
+                                    THANK YOU FOR CONTACTING HANNAH,PLEASE LET ME KNOW HOW I CAN HELP YOU.
                                 </h2>
                                 <p class="text-base text-body-color leading-relaxed mb-9">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

@@ -60,7 +60,7 @@ export default function MainNavBar () {
                 <h4 className="hidden h-6 w-auto lg:block">Hannah Kettor</h4>
               </div>
               <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
-                {/* <!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" --> */}
+                {/* <!-- Current: "border-indigo-500 text-copper-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" --> */}
                 <Link to="/projects" className="
                       inline-flex
                       items-center
@@ -110,7 +110,9 @@ export default function MainNavBar () {
         {/* <!-- Mobile menu, show/hide based on menu state. --> */}
         <div className="sm:hidden" id="mobile-menu">
           <div className="space-y-1 pt-2 pb-4">
-            {/* <!-- Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" --> */}
+            {/* <!-- Current: "bg-indigo-50 border-indigo-500 text-indigo-700", 
+            Default: "border-transparent text-gray-500 hover:bg-copper-50 
+            hover:border-cooper-300 hover:text-copper-700" --> */}
             <Link  to="/projects" className="
                   block
                   border-l-4 border-indigo-500
@@ -131,7 +133,7 @@ export default function MainNavBar () {
                   text-base
                   font-medium
                   text-gray-500
-                  hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700
+                  hover:border-gray-300 hover:bg-gray-50 hover:text-copper-700
                 ">Blog</Link>
             <Link to="/contact" className="
                   block
@@ -142,7 +144,7 @@ export default function MainNavBar () {
                   text-base
                   font-medium
                   text-gray-500
-                  hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700
+                  hover:border-gray-300 hover:bg-gray-50 hover:text-copper-700
                 ">Contact</Link>
           </div>
         </div>

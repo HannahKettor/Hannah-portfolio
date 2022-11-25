@@ -12,7 +12,7 @@ export default function Work() {
       </div>
 
       <details className="px-6 py-4">
-        <summary className="font-bold text-2xl text-gray-800"> Businesswoman </summary>
+        <summary className="font-bold text-2xl text-coffee-800"> a student and a  Businesswoman </summary>
         <p>
         </p>
       </details>
